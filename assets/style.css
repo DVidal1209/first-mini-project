@@ -2,22 +2,24 @@
     /* background-color: lightsteelblue; */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
 body{
     background-color: lightsteelblue;
     height: 100%;
     line-height: 25px;
 }
+
 .banner{
     text-align: center;
     background-image: url("https://guildtag.com/images/landing/world-of-warcraft-banner-2.jpg");
     height: 200px;
     width: 100%;
 }
+
 .banner h1{
     position: relative;
     top: 45%;
-    color: white;
-    
+    color: white;  
 }
 
 .main{
@@ -30,15 +32,14 @@ body{
 
 .main-table{
     width: 95%;
-
 }
-
 
 .main-table th{
     font-size : 40px;
     line-height: 45px;
     text-transform: uppercase;
 }
+
 h2{
     font-size : 20px;
     position : relative;
@@ -48,10 +49,12 @@ h2{
 .left{
     width: 40%;
 }
+
 .main-table td{
     position : relative;
     left : 100px;
 }
+
 footer{
     text-align : right;
     background-color: lightgray ;
@@ -59,7 +62,9 @@ footer{
     width: 100%;
     position : relative;
 }
-
+#avatar-example{
+    height: 250px;
+}
 #sign-up{
     position: relative;
     left : 15%
