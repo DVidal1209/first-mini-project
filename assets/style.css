@@ -5,6 +5,7 @@
 body{
     background-color: lightsteelblue;
     height: 100%;
+    line-height: 25px;
 }
 .banner{
     text-align: center;
@@ -14,14 +15,52 @@ body{
 }
 .banner h1{
     position: relative;
-    top: 100px;
+    top: 45%;
     color: white;
-    /* background:local; */
+    
 }
 
 .main{
     background-color: aqua;
 }
+
 .main p{
-    /* background: local; */
+    font-size : 16px;
+}
+
+.main-table{
+    width: 95%;
+
+}
+
+
+.main-table th{
+    font-size : 40px;
+    line-height: 45px;
+    text-transform: uppercase;
+}
+h2{
+    font-size : 20px;
+    position : relative;
+    top : 20px;
+}
+
+.left{
+    width: 40%;
+}
+.main-table td{
+    position : relative;
+    left : 100px;
+}
+footer{
+    text-align : right;
+    background-color: lightgray ;
+    display : block;
+    width: 100%;
+    position : relative;
+}
+
+#sign-up{
+    position: relative;
+    left : 15%
 }
